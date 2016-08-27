@@ -26,6 +26,6 @@ public class App {
 			} catch (Exception e) {
 				System.out.println(String.format("Ops: %s", e.getMessage()));
 			}
-		} while (str == "");
+		} while (!str.equals(""));
 	}
 }
